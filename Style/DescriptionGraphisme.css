@@ -1,0 +1,167 @@
+.description{
+    display: flex;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 500px;
+}
+.description .max-width{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.description .title{
+    padding-bottom: 0px;
+}
+.description .title::before{
+    background: white;
+}
+
+.description .description-content{
+    align-items: center;
+}
+.description img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Cards */
+.description .small-carousel .card{
+    background: black;
+    border-radius: 6px;
+    padding: 15px 20px;
+}
+.description .small-carousel .box{
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.description .small-carousel .box:hover{
+    transform: scale(1.05);
+}
+.description .small-carousel .card img{
+    height: 40vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    border-radius: 2px;
+}
+.description .small-carousel .card iframe{
+    display: block;
+    margin: auto;
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+/*information */
+
+.description .infos{
+    display: flex;
+}
+
+.description .info{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description .sub-title{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+.description i{
+    margin-right: 8px;
+}
+
+
+.description .infos li{
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.description .infos li i{
+    margin-right: 5px;
+}
+.description .infos li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.infos{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.description .game i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.description .game{
+    display: flex;
+    text-align: center;
+    color: #8ca0d7;
+    margin-bottom: 35px;
+    text-decoration: none;
+    justify-content: center;
+}
+.description .game:hover{
+    text-decoration: underline;
+}
+
+.description p{
+    text-justify: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.description p a{
+    color: white;
+    cursor: pointer;
+}
+
+
+.gallery{
+    color: white;
+    background: black;
+}
+.gallery .title::before{
+    background: white;
+}
+
+/* Carousel */
+.owl-dots{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid cyan!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: cyan!important;
+}
+
+

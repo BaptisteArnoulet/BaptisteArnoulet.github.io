@@ -1,0 +1,103 @@
+@media(max-width : 1310px){
+    .max-width{
+        max-width: 947px;
+    }
+    .description{
+        overflow: hidden;
+    }
+}
+@media(max-width : 947px){
+    .max-width{
+        max-width: 700px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .tasks .task-cards .card{
+        width: 100%;
+    }
+    .tasks .task-cards img{
+        height: 512px;
+    }
+
+}
+@media(max-width : 700px){
+    .max-width{
+        padding: 0 23px;
+        max-width: 600px;
+    }
+    .info{
+        margin: 0 5px 40px 5px;
+    }
+    .infos{
+        width: 90%;
+    }
+
+    .description p {
+        width:90%;
+    }
+}
+
+@media(max-width : 600px){
+
+        .tasks .task-cards img{
+            height: 256px;
+        }
+        
+}
+@media(max-width : 520px){
+    .tasks .task-cards img{
+        height: 256px;
+    }
+    
+    .max-width {
+        max-width: 400px;
+    }
+
+    .infos {
+        flex-direction: column;
+    }
+}
+
+    @media(max-width : 400px){
+    
+        .max-width {
+            max-width: 400px;
+        }
+        .tasks .task-cards img{
+            height: 192px;
+        }       
+
+        
+    }
+
+    @media(max-width : 280px){
+        .max-width {
+            max-width: 280px;
+        }
+    }

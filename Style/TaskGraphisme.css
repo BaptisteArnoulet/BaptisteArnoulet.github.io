@@ -1,0 +1,53 @@
+.tasks .task-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasks .task-cards .card{
+    width: calc(50% - 30px);
+    margin-right: auto;
+    margin-left: auto;
+    background: #222;
+    color: white;
+    padding: 35px 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.tasks .task-cards .box{
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.tasks .task-cards .box:hover{
+    transform: scale(1.05);
+}
+
+.tasks .task-cards .card .sub-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family:  'Montserrat', sans-serif;
+}
+.tasks .task-cards img{
+    height: 256px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.tasks .task-cards p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.tasks .task-cards .card i{
+    font-size: 100px;
+    color: crimson;
+}
