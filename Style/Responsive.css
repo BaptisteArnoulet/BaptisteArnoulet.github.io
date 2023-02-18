@@ -70,7 +70,7 @@
 
     header
     {
-    /*background: url("Image/PhotoBaptiste.png") no-repeat center center scroll;*/
+    background: url("Image/PhotoBaptiste.png") no-repeat center center scroll;
     background-size: auto;
     background-color: #7c7c84;
     height:1100px;
@@ -85,49 +85,49 @@
     }
 }
 
-    @media(max-width : 700px){
-        .max-width{
-            padding: 0 23px;
-        }
+@media(max-width : 700px){
+    .max-width{
+        padding: 0 23px;
+    }
+}
+
+@media(max-width : 450px){
+
+    .home .home-content h1 {
+        font-size: 50px;
+        padding-top: 2.5em;
+    }
+    .home .home-content p {
+        width:11em;
     }
 
-    @media(max-width : 450px){
+    .projects{
+        padding-top:230px;
+    }
+}
+
+@media(max-width : 280px){
     
-        .home .home-content h1 {
-            font-size: 50px;
-            padding-top: 2.5em;
-        }
-        .home .home-content p {
-            width:11em;
-        }
-
-        .projects{
-            padding-top:230px;
-        }
+    .home .home-content h1 {
+        font-size: 40px;
+        padding-top: 3em;
     }
 
-    @media(max-width : 280px){
-        
-        .home .home-content h1 {
-            font-size: 40px;
-            padding-top: 3em;
-        }
-
-        .home .home-content p {
-            font-size: 20px;
-        }
-
-        .btn {
-            font-size : 20px;
-        }
-
-        .home .bottom-content{
-            width: 230px;
-        }
-
-        .projects  .card{
-            width: 100%;
-        }
-
-
+    .home .home-content p {
+        font-size: 20px;
     }
+
+    .btn {
+        font-size : 20px;
+    }
+
+    .home .bottom-content{
+        width: 230px;
+    }
+
+    .projects  .card{
+        width: 100%;
+    }
+
+
+}
