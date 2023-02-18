@@ -1,10 +1,10 @@
 
 header
 {
-    background: url("images/ilo.png") no-repeat center center fixed;
+    /*background: url("images/ilo.png") no-repeat center center fixed;*/
     background-size: cover;
     height: 1000px ;
-    color: white;
+    color: #7c7c84;
 }
 
 header .bottom-content{
