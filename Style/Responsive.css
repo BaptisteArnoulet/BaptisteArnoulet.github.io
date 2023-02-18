@@ -1,0 +1,133 @@
+@media(max-width : 1310px){
+    header .bottom-content{
+        position: unset;
+        margin-left: 0%;
+        margin-right:0%;
+        margin-top: 10%;
+
+    }
+}
+@media(max-width : 947px){
+    .max-width{
+        max-width: 800px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    header article {
+        padding: 1em;
+    }
+
+
+    .contact .contact-content{
+        display: block;
+    }
+    .contact .contact-content .column {
+        width: 100%;
+    }
+
+}
+
+@media(max-width : 600px){
+    
+    .home .home-content p {
+        width:13em;
+    }
+
+    header article {
+        font-size:20px;
+    }
+
+    header
+    {
+    background: url("images/PhotoBaptiste.png") no-repeat center center scroll;
+    background-size: auto;
+    background-color: #7c7c84;
+    height:1100px;
+    }
+    .home{
+        padding-top: 400px;
+        overflow: hidden;
+    }
+
+    .projects{
+        padding-top:120px;
+    }
+}
+
+    @media(max-width : 700px){
+        .max-width{
+            padding: 0 23px;
+        }
+    }
+
+    @media(max-width : 450px){
+    
+        .home .home-content h1 {
+            font-size: 50px;
+            padding-top: 2.5em;
+        }
+        .home .home-content p {
+            width:11em;
+        }
+
+        .projects{
+            padding-top:230px;
+        }
+    }
+
+    @media(max-width : 280px){
+        
+        .home .home-content h1 {
+            font-size: 40px;
+            padding-top: 3em;
+        }
+
+        .home .home-content p {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size : 20px;
+        }
+
+        .home .bottom-content{
+            width: 230px;
+        }
+
+        .projects  .card{
+            width: 100%;
+        }
+
+
+    }
