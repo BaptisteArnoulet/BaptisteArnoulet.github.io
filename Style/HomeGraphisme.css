@@ -1,0 +1,55 @@
+
+header
+{
+    background: url("images/ilo.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 1000px ;
+    color: white;
+}
+
+header .bottom-content{
+    background-color: #333b50;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header article
+{
+    
+    font-size: x-large;
+    font-family: "Montserrat";
+    padding: 2em;
+    font-weight: bold;
+    
+}
+
+
+
+header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 7.5em;
+    text-align: start;
+    vertical-align: bottom;
+    font-family: "lulo clean";
+    font-size: 65px;
+    padding-top: 2em;
+}
+
+header p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    text-align: start;
+    vertical-align: bottom;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+.home-content {
+    text-align: center;
+}
