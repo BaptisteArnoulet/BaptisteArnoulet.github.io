@@ -2,25 +2,25 @@
 @font-face
 {
     font-family: "lulo clean";
-    src: url('polices/lulo_clean.eot');
-    src: url('polices/lulo_clean.eot?#iefix') format('embedded-opentype'),
-         url('polices/lulo_clean.ttf') format('truetype');
+    src: url('../polices/lulo_clean.eot');
+    src: url('../polices/lulo_clean.eot?#iefix') format('embedded-opentype'),
+         url('../polices/lulo_clean.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face
 {
     font-family: "Montserrat";
-    src:url('polices/Montserrat-Regular.ttf') format('truetype');
+    src:url('../polices/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face
 {
     font-family: Avenir light;
-    src: url('polices/Avenir_light.eot');
-    src: url('polices/Avenir_light.eot?#iefix') format('embedded-opentype'),
-         url('polices/Avenir_light.ttf') format('truetype');
+    src: url('../polices/Avenir_light.eot');
+    src: url('../polices/Avenir_light.eot?#iefix') format('embedded-opentype'),
+         url('../polices/Avenir_light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
