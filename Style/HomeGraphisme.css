@@ -55,9 +55,12 @@ header p {
     text-align: center;
 }
 
-.Title {
-    background: url("Image/PhotoBaptiste.png") no-repeat center center fixed;
+.title, .title-image {
+    /*background: url("Image/PhotoBaptiste.png") no-repeat center center fixed;*/
     display: inline-block; 
     vertical-align: top;
-    height: 1000px ;
+}
+
+.title-image {
+    background : fixed;
 }
