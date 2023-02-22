@@ -1,7 +1,7 @@
 
 header
 {
-    background: url("Image/PhotoBaptiste.png") no-repeat center center fixed;
+    /*background: url("Image/PhotoBaptiste.png") no-repeat center center fixed;*/
     background-color: #7c7c84;
     background-size: cover;
     height: 1000px ;
@@ -53,4 +53,9 @@ header p {
 
 .home-content {
     text-align: center;
+}
+
+.Title {
+    display: inline-block; 
+    vertical-align: top;
 }
