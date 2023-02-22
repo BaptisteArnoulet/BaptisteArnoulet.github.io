@@ -70,7 +70,7 @@
 
     header
     {
-    /*background: url("Image/PhotoBaptiste.png") no-repeat center center scroll;*/
+    background: url("Image/PhotoBaptiste.png") no-repeat center center scroll;
     background-size: auto;
     background-color: #7c7c84;
     height:1100px;
